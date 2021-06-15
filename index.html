@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/1ce78da824.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Daniel Escoto</title>
+  </head>
+  <body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <main>
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-light justify-content-between"
+        >
+          <span class="navbar-brand mb-0 h1 mr-auto">Daniel Escoto</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" onclick="goToSkills();">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="goToWork();">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" onclick="goToContact();">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="vertical-center">
+            <h1 class="display-2">
+              Hello &#x1F44B;. My name is
+              <span class="font-weight-bold">Daniel Escoto</span>, and I am a
+              software engineer.
+              <a href="https://www.linkedin.com/in/danescoto/">
+                <i class="fab fa-linkedin" style="color: black"></i>
+              </a>
+              <!-- <i class="fab fa-linkedin" style="color: black"></i> -->
+              <a href="https://github.com/daniel-escoto">
+                <i class="fab fa-github" style="color: black"></i>
+              </a>
+              <!-- <i class="fas fa-file-pdf" style="color: black"></i> -->
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- <h1 class="display-4 pb-2 border-bottom">Skills</h1> -->
+
+      <div class="container">
+        <h1 class="display-4" id="skills">Skills</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm" align="center">
+              <i class="fab fa-js fa-5x" style="color: rgb(141, 141, 141)"></i>
+              <p>Javascript</p>
+            </div>
+            <div class="col-sm" align="center">
+              <i
+                class="fab fa-html5 fa-5x"
+                style="color: rgb(141, 141, 141)"
+              ></i>
+              <p>HTML</p>
+            </div>
+            <div class="col-sm" align="center">
+              <i
+                class="fab fa-css3 fa-5x"
+                style="color: rgb(141, 141, 141)"
+              ></i>
+              <p>CSS</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm" align="center">
+              <i
+                class="fab fa-bootstrap fa-5x"
+                style="color: rgb(141, 141, 141)"
+              ></i>
+              <p>Bootstrap</p>
+            </div>
+            <div class="col-sm" align="center">
+              <i
+                class="fab fa-vuejs fa-5x"
+                style="color: rgb(141, 141, 141)"
+              ></i>
+              <p>Vue.js</p>
+            </div>
+            <div class="col-sm" align="center">
+              <i
+                class="fab fa-react fa-5x"
+                style="color: rgb(141, 141, 141)"
+              ></i>
+              <p>React.js</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm" align="center"></div>
+            <div class="col-sm" align="center">
+              <i
+                class="fab fa-python fa-5x"
+                style="color: rgb(141, 141, 141)"
+              ></i>
+              <p>Python</p>
+            </div>
+            <div class="col-sm" align="center"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="display-4" id="work">Work</h1>
+
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Who's in the Right?</h5>
+            <h6 class="card-subtitle mb-2 text-muted">
+              A reddit-inspired application.
+            </h6>
+            <p class="card-text"></p>
+            <ul>
+              <li>
+                Constructed a full-stack web app that allows users to submit
+                posts, vote on posts, comment on posts, and delete posts and
+                comments.
+              </li>
+              <li>
+                Contributed 20 of all 25 commits to Github repository maintained
+                by 4 people.
+              </li>
+              <li>
+                Designed user interface for the index page, comments page; both
+                implemented in HTML, Vue.js and Bulma CSS.
+              </li>
+              <li>
+                Wrote JS logic to handle post and comment upvote/downvote
+                displays, along with a post/comment sorting system with the
+                following options: most upvotes, most downvotes, most votes,
+                most controversial, and most recent.
+              </li>
+              <li>
+                Designed Backend Python API, using py4web, that can create,
+                read, update, and delete posts and comments.
+              </li>
+            </ul>
+            <a href="https://github.com/daniel-escoto/witr">
+              <button type="button" class="btn btn-primary">Code</button>
+            </a>
+            <i class="fab fa-vuejs fa-lg" style="color: rgb(141, 141, 141)"></i>
+            <i class="fab fa-js fa-lg" style="color: rgb(141, 141, 141)"></i>
+            <i class="fab fa-html5 fa-lg" style="color: rgb(141, 141, 141)"></i>
+            <i
+              class="fab fa-python fa-lg"
+              style="color: rgb(141, 141, 141)"
+            ></i>
+          </div>
+        </div>
+
+        <div class="card mt-3">
+          <div class="card-body">
+            <h5 class="card-title">Mirror</h5>
+            <h6 class="card-subtitle mb-2 text-muted">A sentiment journal.</h6>
+            <p class="card-text"></p>
+            <ul>
+              <li>
+                Make a new account, or sign into an account that already exists.
+              </li>
+              <li></li>
+            </ul>
+            <a href="https://github.com/daniel-escoto/mirror">
+              <button type="button" class="btn btn-primary">Code</button>
+            </a>
+            <i class="fab fa-react fa-lg" style="color: rgb(141, 141, 141)"></i>
+            <i class="fab fa-js fa-lg" style="color: rgb(141, 141, 141)"></i>
+            <i
+              class="fab fa-python fa-lg"
+              style="color: rgb(141, 141, 141)"
+            ></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="display-4" id="contact">Contact Me</h1>
+
+        <div class="card mt-3">
+          <div class="card-body">
+            <form
+              action="https://mailthis.to/descoto"
+              method="POST"
+              enctype="multipart/form-data"
+            >
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label"
+                  >Email address</label
+                >
+                <input
+                  type="email"
+                  name="_replyto"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  name="message"
+                  rows="3"
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <input class="btn btn-primary" type="submit" value="Send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
